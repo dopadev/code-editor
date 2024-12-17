@@ -1,0 +1,16 @@
+div {
+	font-size: clamp(10px, 18px / 1920 * 100vw, 18px);
+	line-height: 1.7;
+}
+
+@media screen and (max-width: 1000px) {
+	div {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 670px) {
+	div {
+		font-size: 10px;
+	}
+}
